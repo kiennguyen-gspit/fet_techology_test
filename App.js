@@ -11,7 +11,7 @@ export default function App() {
   };
   useEffect(() => {
     loadFontsAsync();
-  }, [fontsLoaded])
+  }, [fontsLoaded]) 
   
    loadFontsAsync = async () => {
     await Font.loadAsync(customFonts);
